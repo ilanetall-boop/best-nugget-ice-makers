@@ -1,0 +1,39 @@
+{
+  "site": {
+    "name": "Best Nugget Ice Makers",
+    "domain": "best-nugget-ice-makers.com",
+    "base_url": "https://best-nugget-ice-makers.com",
+    "affiliate_tag": "bestnuggetice-20",
+    "author": "Ilane Tall",
+    "template": "premium-editorial-v1",
+    "ratings_policy": "none-available",
+    "static_pages": [
+      {
+        "path": "",
+        "priority": "1.0"
+      },
+      {
+        "path": "guides",
+        "priority": "0.6"
+      },
+      {
+        "path": "about",
+        "priority": "0.3"
+      },
+      {
+        "path": "contact",
+        "priority": "0.3"
+      },
+      {
+        "path": "privacy",
+        "priority": "0.3"
+      }
+    ],
+    "network_card": null,
+    "analytics": {
+      "clarity_id": null,
+      "ga_id": null
+    }
+  },
+  "articles": []
+}
