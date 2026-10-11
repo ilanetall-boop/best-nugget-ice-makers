@@ -35,5 +35,16 @@
       "ga_id": "G-2R5GXMZLPF"
     }
   },
-  "articles": []
+  "articles": [
+    {
+      "slug": "best-nugget-ice-makers-for-a-small-kitchen",
+      "title": "The Best Compact Nugget Ice Makers for a Small Kitchen",
+      "description": "Counter space is the real constraint in most kitchens. The three machines that make proper nugget ice without taking the whole worktop.",
+      "category": "Roundup",
+      "hero": "hero-best-nugget-ice-makers-for-a-small-kitchen",
+      "minutes": 14,
+      "date": "2026-10-11",
+      "featured": true
+    }
+  ]
 }
