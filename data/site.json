@@ -45,6 +45,16 @@
       "minutes": 14,
       "date": "2026-10-11",
       "featured": true
+    },
+    {
+      "slug": "nugget-ice-maker-water-tank-sizes-explained",
+      "title": "Tank Size Is the Spec That Decides Your Week",
+      "description": "Two machines can both claim 44 lbs a day and interrupt you a completely different number of times. The number to compare instead, and who publishes it.",
+      "category": "Buying guide",
+      "hero": "hero-nugget-ice-maker-water-tank-sizes-explained",
+      "minutes": 16,
+      "date": "2026-10-12",
+      "featured": true
     }
   ]
 }
