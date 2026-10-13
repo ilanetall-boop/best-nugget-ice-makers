@@ -55,6 +55,16 @@
       "minutes": 16,
       "date": "2026-10-12",
       "featured": true
+    },
+    {
+      "slug": "best-nugget-ice-makers-under-150",
+      "title": "The Best Nugget Ice Makers Under $150",
+      "description": "Below a hundred and fifty dollars the brands become unfamiliar and the claims become bolder. Three that still publish something checkable.",
+      "category": "Roundup",
+      "hero": "hero-best-nugget-ice-makers-under-150",
+      "minutes": 14,
+      "date": "2026-10-13",
+      "featured": true
     }
   ]
 }
