@@ -65,6 +65,16 @@
       "minutes": 14,
       "date": "2026-10-13",
       "featured": true
+    },
+    {
+      "slug": "why-nugget-ice-melts-in-the-bin",
+      "title": "Why Your Nugget Ice Melts in the Bin (and Why That Is Normal)",
+      "description": "The most common complaint about this category is not a fault. What a countertop bin actually is, what recirculation does, and how to work with it.",
+      "category": "Honest take",
+      "hero": "hero-why-nugget-ice-melts-in-the-bin",
+      "minutes": 14,
+      "date": "2026-10-14",
+      "featured": true
     }
   ]
 }
