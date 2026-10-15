@@ -75,6 +75,16 @@
       "minutes": 14,
       "date": "2026-10-14",
       "featured": true
+    },
+    {
+      "slug": "ge-profile-opal-ultra-vs-opal-mini",
+      "title": "GE Profile Opal Ultra vs Opal Mini",
+      "description": "Three hundred dollars apart, nearly the same output. What the Ultra actually buys you, and who should save the money.",
+      "category": "Comparison",
+      "hero": "hero-ge-profile-opal-ultra-vs-opal-mini",
+      "minutes": 15,
+      "date": "2026-10-15",
+      "featured": true
     }
   ]
 }
