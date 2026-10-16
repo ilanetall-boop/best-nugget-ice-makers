@@ -85,6 +85,16 @@
       "minutes": 15,
       "date": "2026-10-15",
       "featured": true
+    },
+    {
+      "slug": "how-to-clean-and-descale-a-nugget-ice-maker",
+      "title": "How to Clean and Descale a Nugget Ice Maker",
+      "description": "These machines recirculate the same water all day, so scale is not optional maintenance. The routine, how often, and what a slow machine is telling you.",
+      "category": "How-to",
+      "hero": "hero-how-to-clean-and-descale-a-nugget-ice-maker",
+      "minutes": 15,
+      "date": "2026-10-16",
+      "featured": true
     }
   ]
 }
