@@ -95,6 +95,16 @@
       "minutes": 15,
       "date": "2026-10-16",
       "featured": true
+    },
+    {
+      "slug": "best-nugget-ice-makers-for-a-home-bar",
+      "title": "The Best Nugget Ice Makers for a Home Bar",
+      "description": "A bar runs in bursts: nothing for hours, then everything at once. That changes which specification matters, and it is not the daily total.",
+      "category": "Roundup",
+      "hero": "hero-best-nugget-ice-makers-for-a-home-bar",
+      "minutes": 15,
+      "date": "2026-10-17",
+      "featured": true
     }
   ]
 }
