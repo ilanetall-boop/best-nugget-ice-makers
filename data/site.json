@@ -105,6 +105,16 @@
       "minutes": 15,
       "date": "2026-10-17",
       "featured": true
+    },
+    {
+      "slug": "nugget-ice-vs-regular-ice",
+      "title": "Nugget Ice vs Regular Ice: Is It Actually Better?",
+      "description": "It chills faster, absorbs flavour and melts quicker — all three are the same property seen from different angles. Which drinks it suits and which it ruins.",
+      "category": "Comparison",
+      "hero": "hero-nugget-ice-vs-regular-ice",
+      "minutes": 15,
+      "date": "2026-10-18",
+      "featured": true
     }
   ]
 }
