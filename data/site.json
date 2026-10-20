@@ -125,6 +125,16 @@
       "minutes": 16,
       "date": "2026-10-19",
       "featured": true
+    },
+    {
+      "slug": "how-fast-do-nugget-ice-makers-actually-make-ice",
+      "title": "How Fast Do Nugget Ice Makers Really Make Ice?",
+      "description": "Five minutes, seven minutes, fifteen. What those numbers measure, what they leave out, and why the second batch is the one that matters.",
+      "category": "Honest take",
+      "hero": "hero-how-fast-do-nugget-ice-makers-actually-make-ice",
+      "minutes": 14,
+      "date": "2026-10-20",
+      "featured": true
     }
   ]
 }
