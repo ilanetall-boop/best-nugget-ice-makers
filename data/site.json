@@ -145,6 +145,16 @@
       "minutes": 14,
       "date": "2026-10-21",
       "featured": true
+    },
+    {
+      "slug": "nugget-ice-maker-running-cost-and-noise",
+      "title": "What a Nugget Ice Maker Costs to Run — and How Loud It Is",
+      "description": "Two questions nobody answers in the listings. Here is the arithmetic with its assumptions stated, and what owners consistently report about the noise.",
+      "category": "Honest take",
+      "hero": "hero-nugget-ice-maker-running-cost-and-noise",
+      "minutes": 14,
+      "date": "2026-10-22",
+      "featured": true
     }
   ]
 }
