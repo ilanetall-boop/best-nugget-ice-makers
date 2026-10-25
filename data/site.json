@@ -175,6 +175,16 @@
       "minutes": 15,
       "date": "2026-10-24",
       "featured": true
+    },
+    {
+      "slug": "best-nugget-ice-makers-overall",
+      "title": "The Best Nugget Ice Makers Overall",
+      "description": "Three machines, three budgets, one shortlist for anyone who has not yet decided how much to spend. The picks that justify their price at every tier.",
+      "category": "Roundup",
+      "hero": "hero-best-nugget-ice-makers-overall",
+      "minutes": 14,
+      "date": "2026-10-25",
+      "featured": true
     }
   ]
 }
