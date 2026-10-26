@@ -185,6 +185,16 @@
       "minutes": 14,
       "date": "2026-10-25",
       "featured": true
+    },
+    {
+      "slug": "what-the-self-clean-cycle-actually-does",
+      "title": "What the Self-Clean Cycle on a Nugget Ice Maker Actually Does",
+      "description": "A button labeled self-clean is not the same claim as a button labeled descale. Three machines that advertise the cycle by name, and what it leaves for you to do by hand.",
+      "category": "Honest take",
+      "hero": "hero-what-the-self-clean-cycle-actually-does",
+      "minutes": 16,
+      "date": "2026-10-26",
+      "featured": true
     }
   ]
 }
