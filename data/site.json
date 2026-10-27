@@ -29,7 +29,12 @@
         "priority": "0.3"
       }
     ],
-    "network_card": null,
+    "network_card": {
+      "href": "https://best-wine-fridges.com/",
+      "category": "From our network",
+      "title": "Wine fridges, compared on noise and real capacity",
+      "description": "The other cold appliance people argue about. Our sister site checks compressor against thermoelectric, how loud each one runs, and how many bottles fit once real bottles go in."
+    },
     "analytics": {
       "clarity_id": "yw2xrr7wif",
       "ga_id": "G-2R5GXMZLPF"
