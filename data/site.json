@@ -210,6 +210,16 @@
       "minutes": 15,
       "date": "2026-10-27",
       "featured": true
+    },
+    {
+      "slug": "is-a-nugget-ice-maker-under-100-worth-it",
+      "title": "Is a Nugget Ice Maker Under $100 Worth Buying?",
+      "description": "Exactly two machines in this category cost less than a hundred dollars. What they skip compared to a $145 machine, and whether the gap matters.",
+      "category": "Honest take",
+      "hero": "hero-is-a-nugget-ice-maker-under-100-worth-it",
+      "minutes": 18,
+      "date": "2026-10-28",
+      "featured": true
     }
   ]
 }
