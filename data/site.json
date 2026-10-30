@@ -230,6 +230,16 @@
       "minutes": 15,
       "date": "2026-10-29",
       "featured": true
+    },
+    {
+      "slug": "highest-capacity-nugget-ice-makers",
+      "title": "The Highest-Capacity Nugget Ice Makers: 44 lbs a Day and Up",
+      "description": "Past 44 lbs a day the claims start to separate from each other. Three machines that state the biggest numbers in the catalogue, and what actually changes at that output.",
+      "category": "Roundup",
+      "hero": "hero-highest-capacity-nugget-ice-makers",
+      "minutes": 15,
+      "date": "2026-10-30",
+      "featured": true
     }
   ]
 }
