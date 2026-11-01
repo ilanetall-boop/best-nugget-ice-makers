@@ -250,6 +250,16 @@
       "minutes": 13,
       "date": "2026-10-31",
       "featured": true
+    },
+    {
+      "slug": "silonn-vs-euhomy-nugget-ice-makers",
+      "title": "Silonn vs EUHOMY: Which Budget Brand Actually Makes a Better Machine?",
+      "description": "Between them, these two brands account for most of the catalogue. Their flagship machines compared directly, with a third brand alongside to show where the big two actually earn their price.",
+      "category": "Comparison",
+      "hero": "hero-silonn-vs-euhomy-nugget-ice-makers",
+      "minutes": 17,
+      "date": "2026-11-01",
+      "featured": true
     }
   ]
 }
