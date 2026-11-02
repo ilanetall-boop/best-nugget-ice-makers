@@ -260,6 +260,16 @@
       "minutes": 17,
       "date": "2026-11-01",
       "featured": true
+    },
+    {
+      "slug": "how-many-pounds-of-ice-a-day-do-you-need",
+      "title": "How Many Pounds of Ice a Day Do You Actually Need?",
+      "description": "The daily figure on the box ranges from 33 lbs to 60 across this category. The question that turns that range into an actual household answer, before tank size or price enters the decision.",
+      "category": "Buying guide",
+      "hero": "hero-how-many-pounds-of-ice-a-day-do-you-need",
+      "minutes": 17,
+      "date": "2026-11-02",
+      "featured": true
     }
   ]
 }
