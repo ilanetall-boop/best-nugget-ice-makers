@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why the Same Kismile Ice Maker Has Two Different Listings</title>
+<meta name="description" content="Two ASINs, identical name, identical price, identical 35 lbs claim. What is actually going on when a nugget ice maker shows up twice on Amazon, and how to tell before you click buy.">
+<link rel="canonical" href="https://best-nugget-ice-makers.com/same-listing-two-asins-the-kismile-duplicate">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Nugget Ice Makers">
+<meta property="og:title" content="Why the Same Kismile Ice Maker Has Two Different Listings">
+<meta property="og:description" content="Two ASINs, identical name, identical price, identical 35 lbs claim. What is actually going on when a nugget ice maker shows up twice on Amazon, and how to tell before you click buy.">
+<meta property="og:image" content="https://best-nugget-ice-makers.com/images/hero-same-listing-two-asins-the-kismile-duplicate.webp">
+<meta name="theme-color" content="#08191c">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  :root{
+    --ground:#f3f3f6; --surface:#ffffff; --surface-2:#e8ecf0;
+    --ink:#121d21; --ink-soft:#253942; --muted:#626e74; --line:#dbe1e5;
+    --ice:#287795; --ice-deep:#165367; --ice-tint:#e7f2f6;
+    --steel:#5a7389; --steel-lite:#829db3; --steel-tint:#e2e9ef;
+    --dark:#081719; --dark-2:#11292c; --on-dark:#e9eef2; --on-dark-mute:#9facb2;
+    --star:#1e5fbb;
+    --shadow:0 1px 2px rgba(35,16,22,.05),0 22px 48px -26px rgba(35,16,22,.32);
+    --shadow-sm:0 1px 2px rgba(35,16,22,.05),0 10px 24px -16px rgba(35,16,22,.26);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#070f14; --surface:#0d1b1f; --surface-2:#132328;
+    --ink:#e9eef2; --ink-soft:#c7d3d8; --muted:#939ea3; --line:#1d3138;
+    --ice:#7ebce3; --ice-deep:#a6d4f0; --ice-tint:#11242a;
+    --steel:#84a2bf; --steel-lite:#9fb9d4; --steel-tint:#15191d;
+    --surface-2b:#132328;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#070f14; --surface:#0d1b1f; --surface-2:#132328;
+    --ink:#e9eef2; --ink-soft:#c7d3d8; --muted:#939ea3; --line:#1d3138;
+    --ice:#7ebce3; --ice-deep:#a6d4f0; --ice-tint:#11242a;
+    --steel:#84a2bf; --steel-lite:#9fb9d4; --steel-tint:#15191d;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, cold light) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(232,121,143,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(217,179,106,.22),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(155,34,71,.30),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.35;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(243,163,179,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(217,179,106,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--steel-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--steel-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--steel),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--steel-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--steel)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;gap:10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem;flex-wrap:wrap}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--ice);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--ice-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--steel-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--ice-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--steel-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--steel-tint)}
+  .win td.name{color:var(--steel-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--steel)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--ice-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--steel-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--ice-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;gap:8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem;flex-wrap:wrap}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--steel);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);font-style:italic;color:var(--ink);font-size:1.02rem}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--ice);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--ice-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--ice-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--steel-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--steel-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(207,166,102,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--ice);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style>
+  .prose{max-width:68ch}
+  .prose p{margin:0 0 1.1rem;color:var(--ink-soft)}
+  .disclosure{font-size:.86rem;color:var(--muted);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:28px 0 0;max-width:68ch}
+  .dupe-row{display:flex;gap:18px;align-items:center}
+  .dupe-row .dimg{width:92px;height:92px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:12px;padding:8px;display:flex;align-items:center;justify-content:center}
+  .dupe-row .dimg img{max-width:100%;max-height:100%;display:block}
+  .dupe-row .asin{font-size:.78rem;color:var(--muted);font-variant-numeric:tabular-nums;margin-top:2px}
+  .checklist{margin:0;padding-left:0;list-style:none}
+  .checklist li{padding:12px 0 12px 30px;border-top:1px solid var(--line);position:relative;color:var(--ink-soft)}
+  .checklist li:first-child{border-top:0}
+  .checklist li::before{content:"";position:absolute;left:0;top:18px;width:14px;height:14px;border:2px solid var(--steel);border-radius:4px}
+  @media (max-width:760px){.dupe-row{flex-direction:column;align-items:flex-start}}
+</style>
+<style id="a11y">:root{--steel-text:#3f5163;--star:#195297}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--steel-text:#9fb9d4;--star:#6797cc}}:root[data-theme="dark"]{--steel-text:#9fb9d4;--star:#6797cc}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--steel-text)}.win td.name{color:var(--steel-text)}a.btn,a.buy,.btn,.buy{background:#246c89 !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#165367 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#a6d2ed !important;color:#0c1f29 !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#c2e1f5}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#a6d2ed !important;color:#0c1f29 !important}</style>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "yw2xrr7wif");
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2R5GXMZLPF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());gtag('config', 'G-2R5GXMZLPF');</script>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Nugget Ice Makers">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#2a7b9d"/><stop offset=".7" stop-color="#165367"/><stop offset="1" stop-color="#0f2529"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#829db3" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#e9eef2" stroke-width=".6" stroke-opacity=".22"/>
+      <path d="M20 11.6 26.4 15.4v7.6L20 26.8 13.6 23V15.4Z" fill="none" stroke="#f1f6f8" stroke-width="1.9" stroke-linejoin="round"/>
+      <path d="M13.6 15.4 20 19.2l6.4-3.8" fill="none" stroke="#f1f6f8" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M20 19.2v7.6" fill="none" stroke="#f1f6f8" stroke-width="1.5"/>
+      <path d="M12.6 29.8h14.8" fill="none" stroke="#9fb9d4" stroke-width="1.7" stroke-linecap="round"/>
+    </svg>
+    <span class="bn">Best&thinsp;Nugget&thinsp;Ice&thinsp;Makers</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The six</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<div class="hero">
+  <div class="caustic" aria-hidden="true"></div><div class="caustic b" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Honest Take &middot; Countertop Nugget Ice Makers</span>
+      <h1 class="serif">Same machine, two ASINs &mdash; and <em>one price is wrong</em>.</h1>
+      <p class="lede">Search for a Kismile nugget ice maker on Amazon and you can land on two listings with the identical product name, the identical stainless-steel photos and the identical &ldquo;35 lbs/Day&rdquo; headline claim. They are not the same URL. They are two separate ASINs, and as of our last price check they were not even selling for the same amount. That is not a glitch in Amazon's search results. It is a normal, mostly harmless, occasionally confusing part of how this category is sold &mdash; and once you know what causes it, it takes about thirty seconds to check.</p>
+      <div class="meta"><span>By <b>Ilane Tall</b></span><span><b>2</b> duplicate ASINs, <b>1</b> real question</span><span>Research-based &mdash; <b>no testing lab, no invented scores</b></span></div>
+      <hr class="rule">
+    </div>
+    <img class="himg" src="/images/hero-same-listing-two-asins-the-kismile-duplicate.webp" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async" alt="Two identical stainless-steel Kismile countertop nugget ice makers side by side on a kitchen counter, representing the same machine listed twice on Amazon under different ASINs">
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="disclosure">Affiliate disclosure: we may earn a commission if you buy through the Amazon links on this page, at no extra cost to you. See <a href="#how">how we compared</a> below.</div>
+
+  <section id="intro">
+    <div class="prose" style="margin-top:28px">
+      <p>Here is the situation, stated plainly, because the plain version is already strange enough. There are two Amazon listings for a product called &ldquo;Kismile Nugget Ice Maker Countertop, 35 lbs/Day, Stainless Steel.&rdquo; One carries the ASIN <b>B0GS552T5S</b>. The other carries the ASIN <b>B0F64WHP74</b>. The product name is word-for-word identical on both. The stated output &mdash; 35 lbs of nugget ice a day &mdash; is identical on both. The finish, stainless steel, is identical on both. And on the dates we checked, the price was not identical at all: $144.98 for one, $189.99 for the other, a $45.01 gap for what reads, on paper, as the exact same appliance.</p>
+      <p>If you've shopped for small kitchen appliances on Amazon for more than a few minutes, you've probably run into some version of this before, even if you didn't stop to name it. A listing you bookmarked yesterday is gone today, replaced by what looks like the same product at a new ASIN. A search turns up two nearly identical tiles and you genuinely cannot tell which one to click. This guide is about that specific, common, and almost always boring phenomenon: why it happens, what it does and doesn't tell you about the seller, how to check two listings yourself before you buy, and &mdash; using these two Kismile ASINs and one genuinely different machine as the worked example &mdash; which listing actually makes sense to click.</p>
+    </div>
+  </section>
+
+  <!-- DUPLICATE -->
+  <section id="duplicate">
+    <div class="kicker"><span class="eyebrow">What's actually on the page</span></div>
+    <h2 class="h2">Two ASINs, one product page's worth of text</h2>
+    <div class="prose" style="margin-top:18px">
+      <p>Strip away the ASIN in the URL and the two Kismile listings read as the same page copied twice. Same title: &ldquo;Kismile Nugget Ice Maker Countertop, 35 lbs/Day, Stainless Steel.&rdquo; Same headline capacity claim: 35 lbs/Day. Same material callout: stainless steel. Neither listing's title, bullet summary or size/variant line states a single differentiating feature &mdash; no mention of a different tank size, a different control panel, a different accessory bundle, nothing. If there is a hardware difference between what ships under B0GS552T5S and what ships under B0F64WHP74, it is not written down anywhere we have access to, which means we're not going to invent one. The honest statement is that these two ASINs describe themselves, in every field we can see, as the same machine.</p>
+    </div>
+    <div class="cols" style="margin-top:8px">
+      <div class="panel">
+        <div class="dupe-row">
+          <span class="dimg"><img src="/images/amazon-B0GS552T5S.webp" alt="Kismile Nugget Ice Maker Countertop, 35 lbs/Day, Stainless Steel, ASIN B0GS552T5S" width="800" height="800" loading="lazy" decoding="async" style="width:100%;height:auto;max-width:92px"></span>
+          <div>
+            <h3 style="font-size:1.08rem">Listing A</h3>
+            <div class="asin">ASIN B0GS552T5S</div>
+            <p style="margin:.4rem 0 0">35 lbs/Day &middot; Stainless steel &middot; <b class="price">$144.98</b></p>
+          </div>
+        </div>
+        <a class="buy" style="margin-top:16px" href="https://www.amazon.com/dp/B0GS552T5S?tag=bestnuggetice-20" rel="nofollow sponsored noopener" target="_blank">Check price &rarr;</a>
+      </div>
+      <div class="panel">
+        <div class="dupe-row">
+          <span class="dimg"><img src="/images/amazon-B0F64WHP74.webp" alt="Kismile Nugget Ice Maker Countertop, 35 lbs/Day, Stainless Steel, ASIN B0F64WHP74" width="800" height="800" loading="lazy" decoding="async" style="width:100%;height:auto;max-width:92px"></span>
+          <div>
+            <h3 style="font-size:1.08rem">Listing B</h3>
+            <div class="asin">ASIN B0F64WHP74</div>
+            <p style="margin:.4rem 0 0">35 lbs/Day &middot; Stainless steel &middot; <b class="price">$189.99</b></p>
+          </div>
+        </div>
+        <a class="buy" style="margin-top:16px" href="https://www.amazon.com/dp/B0F64WHP74?tag=bestnuggetice-20" rel="nofollow sponsored noopener" target="_blank">Check price &rarr;</a>
+      </div>
+    </div>
+    <div class="prose" style="margin-top:22px">
+      <p>Worth saying clearly: not every pair of same-brand listings is this kind of duplicate. Compare that to <a href="/frigidaire-nugget-ice-maker-gen-1-vs-gen-2">Frigidaire's two nugget ice makers, one labeled &ldquo;2.0 Gen&rdquo; and one not</a>, which carry a real, stated generation marker and a price gap the listing itself explains. The Kismile pair has no such marker. Nothing in the title, the bullets, or the size/variant field distinguishes B0GS552T5S from B0F64WHP74. That absence of any stated difference is the whole story here, and it's also exactly what you should be checking for yourself any time you see two listings that look alike.</p>
+    </div>
+  </section>
+
+  <!-- WHY RELIST -->
+  <section id="why-relist">
+    <div class="kicker"><span class="eyebrow">The mechanics</span></div>
+    <h2 class="h2">Why a seller relists an identical product under a second ASIN</h2>
+    <div class="prose" style="margin-top:18px">
+      <p>Amazon's catalogue is built around the idea that one ASIN equals one distinct product. In practice, sellers end up creating a second ASIN for what is functionally the same item for reasons that have almost nothing to do with the product itself and almost everything to do with how the listing is managed on the back end.</p>
+      <p>The most common reason is a lost listing. If a product page accumulates enough policy violations, intellectual-property complaints, or a suspended Buy Box, the simplest fix for a seller is often not to resolve the underlying issue but to create a fresh ASIN and relaunch the same physical product there, sometimes under a slightly different seller account. A second common reason is multi-seller friction: a brand sells through more than one Amazon seller account, or through a mix of first-party and third-party arrangements, and each account's own listing gets its own ASIN rather than sharing one. A third is simply testing &mdash; sellers routinely spin up a second listing to try a different price point, a different set of product photos, or a different advertising campaign, without merging it back into the original once the test is over.</p>
+      <p>None of this requires anything to be wrong with the product. It is closer to how a budget-tier brand runs its Amazon presence than to anything about the machine inside the box. If you've compared <a href="/is-a-nugget-ice-maker-under-100-worth-it">sub-$100 nugget ice makers</a> before, you've likely already noticed that the brands at this price point tend to have messier, more duplicated, more frequently-reshuffled catalogues than an established name like GE or Frigidaire &mdash; smaller operations simply have fewer people managing the listing side of the business, and duplicate ASINs are one of the more visible symptoms of that.</p>
+    </div>
+  </section>
+
+  <!-- COUNTERFEIT -->
+  <section id="counterfeit">
+    <div class="kicker"><span class="eyebrow">The question people actually ask</span></div>
+    <h2 class="h2">What this does &mdash; and does not &mdash; say about counterfeit risk</h2>
+    <div class="prose" style="margin-top:18px">
+      <p>A duplicate listing is not, by itself, evidence of a counterfeit. The overwhelming majority of duplicate ASINs on Amazon exist because of the catalogue-management reasons above &mdash; a relisted product, a second seller account, a pricing experiment &mdash; and not because a different factory is shipping a fake unit under the same name. Treating &ldquo;this listing has a twin&rdquo; as proof of anything sinister would be its own kind of invented claim, and we're not going to make one we can't back up.</p>
+      <p>What a duplicate listing <em>does</em> mean is that you should check who is actually selling and shipping each specific ASIN before you buy, because that information can differ between two otherwise identical-looking listings even when the manufacturer name stays the same. Look at the &ldquo;Sold by&rdquo; and &ldquo;Ships from&rdquo; line on the buy box of each ASIN. If one listing is sold and shipped by Amazon.com directly, or by a storefront that matches the brand name exactly, and the other is sold by a third-party name you've never heard of with no storefront history, that's a real, checkable difference worth weighing &mdash; not because duplication itself is the red flag, but because an unfamiliar third-party seller carries its own ordinary risks (slower returns, less responsive support) regardless of whether the listing is a duplicate. The duplication is the symptom that sends you looking; the seller information is the actual signal.</p>
+    </div>
+  </section>
+
+  <!-- HOW TO CHECK -->
+  <section id="how-to-check">
+    <div class="kicker"><span class="eyebrow">Do this before you buy</span></div>
+    <h2 class="h2">How to check whether two listings are really the same machine</h2>
+    <div class="prose" style="margin-top:18px">
+      <p>You don't need a tool for this, and you don't need to guess. Amazon listings carry enough fields that a side-by-side read tells you almost everything in a couple of minutes. Here's the order we'd check them in, using the two Kismile ASINs above as the worked example:</p>
+    </div>
+    <div class="panel" style="margin-top:8px">
+      <ol class="checklist">
+        <li><b>Read the title character by character.</b> Both Kismile listings use the identical string, &ldquo;Kismile Nugget Ice Maker Countertop, 35 lbs/Day, Stainless Steel.&rdquo; If a second listing's title adds a word &mdash; a capacity number, a color, a bundle item, a generation marker like Frigidaire's &ldquo;2.0 Gen&rdquo; &mdash; that's a real difference worth reading further into, not a duplicate.</li>
+        <li><b>Compare the stated capacity and size/variant line, not just the bullet points.</b> Both Kismile listings publish the same 35lbs/day size/variant. If we don't have a size or variant line for a product at all, that's a sign to go check the live listing directly rather than assume a spec we can't confirm &mdash; see <a href="/how-many-pounds-of-ice-a-day-do-you-need">how to read a daily-output claim</a> for the broader version of this caution.</li>
+        <li><b>Check &ldquo;Sold by&rdquo; and &ldquo;Ships from&rdquo; on each ASIN separately.</b> This is the field most likely to actually differ between duplicates, and it's the one that matters most for your own buying decision.</li>
+        <li><b>Compare the price on the day you're actually buying.</b> Don't assume duplicate listings are priced the same just because the product description is. Ours weren't &mdash; $144.98 against $189.99, a gap wide enough that it would be a mistake to click the first result without checking the other.</li>
+        <li><b>Look at the product images for anything the title doesn't mention.</b> A different cord length, a different control panel layout, or an extra accessory in the box photo can indicate the listings have genuinely diverged over time, even if the title text was never updated to match.</li>
+      </ol>
+    </div>
+    <div class="prose" style="margin-top:18px">
+      <p>Run through that list and one of two things will be true. Either every field lines up, in which case you're almost certainly looking at the same physical product sold through two separate catalogue entries &mdash; our situation here &mdash; or something doesn't line up, in which case you've just found a real difference the headline title was hiding, and you should read the rest of that specific listing before buying either one.</p>
+    </div>
+  </section>
+
+  <!-- COMPARE TABLE -->
+  <section id="compare">
+    <div class="kicker"><span class="eyebrow">Side by side</span></div>
+    <h2 class="h2">The two duplicates, and one machine that's genuinely different</h2>
+    <div class="tablewrap"><table>
+      <thead>
+        <tr><th>Listing</th><th>ASIN</th><th>Daily output</th><th>Price</th><th>Get it</th></tr>
+      </thead>
+      <tbody>
+        <tr class="win">
+          <td class="name"><span class="thumb"><img src="/images/amazon-B0GS552T5S.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span>Kismile 35 lbs/Day (Listing A)</td>
+          <td>B0GS552T5S</td>
+          <td>35 lbs/day</td>
+          <td class="price">$144.98</td>
+          <td><a class="tget" href="https://www.amazon.com/dp/B0GS552T5S?tag=bestnuggetice-20" rel="nofollow sponsored noopener" target="_blank">Get it</a></td>
+        </tr>
+        <tr>
+          <td class="name"><span class="thumb"><img src="/images/amazon-B0F64WHP74.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span>Kismile 35 lbs/Day (Listing B)</td>
+          <td>B0F64WHP74</td>
+          <td>35 lbs/day</td>
+          <td class="price">$189.99</td>
+          <td><a class="tget" href="https://www.amazon.com/dp/B0F64WHP74?tag=bestnuggetice-20" rel="nofollow sponsored noopener" target="_blank">Get it</a></td>
+        </tr>
+        <tr>
+          <td class="name"><span class="thumb"><img src="/images/amazon-B0GR65HTKY.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span>Silonn with Detachable Basket</td>
+          <td>B0GR65HTKY</td>
+          <td>33 lbs</td>
+          <td class="price">$149.98</td>
+          <td><a class="tget" href="https://www.amazon.com/dp/B0GR65HTKY?tag=bestnuggetice-20" rel="nofollow sponsored noopener" target="_blank">Get it</a></td>
+        </tr>
+      </tbody>
+    </table></div>
+    <div class="prose" style="margin-top:18px">
+      <p>Read that table carefully and the first two rows are the finding: the same product name, the same stated capacity, and a $45.01 price difference on the two dates we checked. The third row is there on purpose, because it's priced almost exactly between the two Kismile ASINs &mdash; $149.98 &mdash; while actually being a different machine with a different stated capacity (33 lbs, not 35) and a named feature the Kismile listings don't mention: a detachable basket and handle. More on why that distinction matters below.</p>
+    </div>
+  </section>
+
+  <!-- GENUINELY DIFFERENT -->
+  <section id="different-machine">
+    <div class="kicker"><span class="eyebrow">The contrast case</span></div>
+    <h2 class="h2">What a genuinely different machine at the same price looks like instead</h2>
+    <div class="prose" style="margin-top:18px">
+      <p>It's worth seeing the opposite of a duplicate listing right next to the duplicate itself, because the contrast is what makes the checklist above concrete instead of abstract. The <b>Silonn Nugget Ice Maker Countertop with Detachable Basket and Handle</b> (ASIN B0GR65HTKY, $149.98) sits in the same rough price band as both Kismile ASINs. It is not a third copy of the same machine. Its name states a different capacity &mdash; 33 lbs, where both Kismile listings claim 35 &mdash; and it names a physical feature neither Kismile listing mentions anywhere in its title or size/variant line: a basket that detaches, attached to a handle, built into the product name rather than buried in a bullet point.</p>
+      <p>That's the pattern a genuinely different product leaves behind. A real difference shows up as a change to the title itself, a different number in the size/variant field, or a named feature that the competing listing's own text is silent on &mdash; not just a different ASIN with everything else unchanged. We go deeper on exactly this brand against its closest budget rival in <a href="/silonn-vs-euhomy-nugget-ice-makers">Silonn vs EUHOMY: which budget brand actually makes a better machine</a>, which is worth reading if a detachable-basket design like this one is actually what you're shopping for, rather than a slightly cheaper way to buy the same Kismile unit twice.</p>
+      <p>We don't have a stated tank size, fill method, or time-to-first-ice figure for any of the three machines in this comparison beyond what's listed above, so we're not going to assert one. If those specifics decide your purchase, check the live listing directly before you buy.</p>
+    </div>
+  </section>
+
+  <!-- WHICH TO CLICK -->
+  <section id="which-to-click">
+    <div class="kicker"><span class="eyebrow">The actual decision</span></div>
+    <h2 class="h2">Which listing to click, and why it rarely matters which</h2>
+    <div class="prose" style="margin-top:18px">
+      <p>Once you've confirmed, using the checklist above, that two listings describe the same physical product &mdash; which is what we found here &mdash; the machine you end up with rarely depends on which ASIN you clicked. Same name, same stated capacity, same material, no feature either listing claims that the other doesn't. In terms of what shows up on your counter, it genuinely does not matter whether the box says B0GS552T5S or B0F64WHP74 on the packing label.</p>
+      <p>What does matter, and what our own price check on these two ASINs happens to demonstrate well, is that duplicate listings are not kept in sync on price. Amazon doesn't merge or average pricing across ASINs that describe the same product; each one is priced independently by whoever controls it, which is exactly how we ended up looking at $144.98 on one Kismile listing and $189.99 on the other for what reads as the identical machine. The practical rule that follows from that is simple: once you've verified two listings are duplicates, open both, compare the current price on each, and buy whichever one is cheaper that day. There is no loyalty-card reason to pay $45 more for the listing you happened to click first.</p>
+      <p>The one exception worth flagging: if your checklist turns up a real difference in the &ldquo;Sold by&rdquo; field &mdash; one ASIN fulfilled by Amazon directly, the other by an unfamiliar third party with no storefront history &mdash; that's a legitimate reason to pay a small premium for the more reliably-fulfilled listing, even on a true duplicate. Price is the deciding factor only once you've ruled out a seller-reliability difference first. For a wider look at how this budget tier of the category holds up in general, our <a href="/is-a-nugget-ice-maker-under-100-worth-it">breakdown of nugget ice makers under $100</a> covers the same kind of listing-reading diligence, applied to a different price cliff.</p>
+    </div>
+  </section>
+
+  <!-- METHOD -->
+  <section id="how">
+    <div class="kicker"><span class="eyebrow">Our method</span></div>
+    <h2 class="h2">How we compared &mdash; and what we can&rsquo;t tell you</h2>
+    <div class="cols">
+      <div class="panel">
+        <span class="eyebrow">What we did</span>
+        <h3>Listing text, prices and ASINs, read side by side</h3>
+        <p>We compared the published titles, size/variant lines, stated capacities and current Amazon prices for the two Kismile ASINs in question, plus one Silonn listing in the same price band, field by field. Where both listings stated the identical text, we report that they're identical. Where a price differed between the two check dates we have on file, we report both prices rather than average or round them into agreement.</p>
+      </div>
+      <div class="panel">
+        <span class="eyebrow">What we didn&rsquo;t</span>
+        <h3>We don&rsquo;t run a testing lab</h3>
+        <p>We do not physically test these machines, we do not own either Kismile unit, and we have no owner-review or ratings data for any of the three ASINs discussed here &mdash; so we are not citing review sentiment or a star rating for any of them, invented or otherwise. What we can do honestly is read what each listing actually states, compare it against the other, and say plainly where the data runs out.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="kicker"><span class="eyebrow">FAQ</span></div>
+    <h2 class="h2">Common questions</h2>
+    <div class="panel faq" style="margin-top:22px">
+      <details open><summary>Are the two Kismile listings actually the same machine?</summary><p>As far as the published data lets us tell, yes. Both ASINs &mdash; B0GS552T5S and B0F64WHP74 &mdash; use the identical product name, &ldquo;Kismile Nugget Ice Maker Countertop, 35 lbs/Day, Stainless Steel,&rdquo; the identical stated capacity, and the identical stainless-steel finish. Neither listing's title or size/variant field names a single feature the other doesn't also claim. That's the pattern of a duplicate listing, not two genuinely different products.</p></details>
+      <details><summary>Is a duplicate listing a sign the product is counterfeit?</summary><p>No, not by itself. Most duplicate ASINs exist because of ordinary Amazon catalogue mechanics &mdash; a relisted product after a suspended listing, a second seller account for the same brand, a price or photo test &mdash; and have nothing to do with where the physical unit was made. What's worth checking on a duplicate is the &ldquo;Sold by&rdquo; and &ldquo;Ships from&rdquo; field on each ASIN, since that can genuinely differ between two listings even when the product description doesn't.</p></details>
+      <details><summary>How can I tell if two Amazon listings are really the same product?</summary><p>Read the title character by character, compare the stated capacity or size/variant line, check whether either listing's bullets or photos name a feature the other is silent on, and compare the &ldquo;Sold by&rdquo; field. If every one of those lines up, as they do for the two Kismile ASINs here, you're looking at a duplicate. If any of them diverges &mdash; a different word in the title, a different stated capacity &mdash; you've found a real difference worth reading into before you buy either one.</p></details>
+      <details><summary>Does it matter which Kismile listing I buy?</summary><p>Not for the machine you'll receive &mdash; by every field we can check, it's the same product either way. It does matter for price: our two check dates showed $144.98 on one ASIN and $189.99 on the other, a $45.01 gap that Amazon does nothing to close automatically. Open both listings, compare the current price, and buy the cheaper one, unless the &ldquo;Sold by&rdquo; field on the cheaper listing gives you a specific reason not to.</p></details>
+    </div>
+  </section>
+
+  <!-- KEEP READING -->
+  <section id="related">
+    <div class="kicker"><span class="eyebrow">Keep reading</span></div>
+    <h2 class="h2">More from Best Nugget Ice Makers</h2>
+    <div class="cols" style="margin-top:22px">
+      <div class="panel">
+        <span class="eyebrow">A real generational difference</span>
+        <h3><a href="/frigidaire-nugget-ice-maker-gen-1-vs-gen-2">Frigidaire's two generations, compared</a></h3>
+        <p>What a listing looks like when the price gap is explained by an actual labeled change, not a silent duplicate.</p>
+      </div>
+      <div class="panel">
+        <span class="eyebrow">Budget brand, head to head</span>
+        <h3><a href="/silonn-vs-euhomy-nugget-ice-makers">Silonn vs EUHOMY</a></h3>
+        <p>The detachable-basket Silonn from this guide, compared directly against its closest budget rival.</p>
+      </div>
+      <div class="panel">
+        <span class="eyebrow">The full comparison</span>
+        <h3><a href="/">All six nugget ice makers, compared</a></h3>
+        <p>Our main buying guide covers the wider range, including machines well above this price tier.</p>
+      </div>
+      <div class="panel">
+        <span class="eyebrow">Our standards</span>
+        <h3><a href="/about">About Best Nugget Ice Makers</a></h3>
+        <p>Who writes these guides and how we handle specs, prices and the absence of real review data.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Nugget Ice Makers</div>
+  <p>Independent, research-based comparisons of countertop nugget ice makers.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> · <a href="/guides">All guides</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specs and current listing data; we do not physically test products. Prices change frequently — confirm the current price on Amazon before buying. As an Amazon Associate, we earn from qualifying purchases. © 2026 Best Nugget Ice Makers.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Why the Same Kismile Ice Maker Has Two Different Listings",
+ "description": "Two ASINs, identical name, identical price, identical 35 lbs claim. What is actually going on when a nugget ice maker shows up twice on Amazon, and how to tell before you click buy.",
+ "image": "https://best-nugget-ice-makers.com/images/hero-same-listing-two-asins-the-kismile-duplicate.webp",
+ "author": { "@type": "Person", "name": "Ilane Tall" },
+ "publisher": { "@type": "Organization", "name": "Best Nugget Ice Makers" },
+ "datePublished": "2026-11-04",
+ "dateModified": "2026-11-04",
+ "mainEntityOfPage": "https://best-nugget-ice-makers.com/same-listing-two-asins-the-kismile-duplicate"
+}
+</script>
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Are the two Kismile listings actually the same machine?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "As far as the published data lets us tell, yes. Both ASINs, B0GS552T5S and B0F64WHP74, use the identical product name, the identical stated 35 lbs/Day capacity, and the identical stainless-steel finish. Neither listing names a feature the other doesn't also claim, which is the pattern of a duplicate listing rather than two genuinely different products."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is a duplicate listing a sign the product is counterfeit?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No, not by itself. Most duplicate ASINs exist because of ordinary Amazon catalogue mechanics, such as a relisted product after a suspended listing or a second seller account for the same brand, and have nothing to do with the product itself. What's worth checking on a duplicate is the Sold by and Ships from field on each ASIN, since that can genuinely differ even when the product description doesn't."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How can I tell if two Amazon listings are really the same product?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Read the title character by character, compare the stated capacity or size and variant line, check whether either listing names a feature the other is silent on, and compare the Sold by field. If every one of those lines up, you're looking at a duplicate. If any of them diverges, you've found a real difference worth reading into before buying either one."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it matter which Kismile listing I buy?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Not for the machine you'll receive, since by every field that can be checked it's the same product either way. It does matter for price: the two listings showed $144.98 and $189.99 on the dates checked, a gap Amazon does nothing to close automatically. Compare the current price on both listings and buy the cheaper one, unless the Sold by field gives a specific reason not to."
+   }
+  }
+ ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ItemList",
+ "name": "Kismile Duplicate Listing Comparison",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item": {
+    "@type": "Product",
+    "name": "Kismile Nugget Ice Maker Countertop, 35 lbs/Day, Stainless Steel",
+    "sku": "B0GS552T5S",
+    "image": "https://best-nugget-ice-makers.com/images/amazon-B0GS552T5S.webp",
+    "offers": {
+     "@type": "Offer",
+     "price": "144.98",
+     "priceCurrency": "USD",
+     "availability": "https://schema.org/InStock",
+     "url": "https://www.amazon.com/dp/B0GS552T5S?tag=bestnuggetice-20"
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "item": {
+    "@type": "Product",
+    "name": "Kismile Nugget Ice Maker Countertop, 35 lbs/Day, Stainless Steel",
+    "sku": "B0F64WHP74",
+    "image": "https://best-nugget-ice-makers.com/images/amazon-B0F64WHP74.webp",
+    "offers": {
+     "@type": "Offer",
+     "price": "189.99",
+     "priceCurrency": "USD",
+     "availability": "https://schema.org/InStock",
+     "url": "https://www.amazon.com/dp/B0F64WHP74?tag=bestnuggetice-20"
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "item": {
+    "@type": "Product",
+    "name": "Silonn Nugget Ice Maker Countertop with Detachable Basket and Handle",
+    "sku": "B0GR65HTKY",
+    "image": "https://best-nugget-ice-makers.com/images/amazon-B0GR65HTKY.webp",
+    "offers": {
+     "@type": "Offer",
+     "price": "149.98",
+     "priceCurrency": "USD",
+     "availability": "https://schema.org/InStock",
+     "url": "https://www.amazon.com/dp/B0GR65HTKY?tag=bestnuggetice-20"
+    }
+   }
+  }
+ ]
+}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

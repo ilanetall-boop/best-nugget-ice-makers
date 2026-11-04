@@ -280,6 +280,16 @@
       "minutes": 16,
       "date": "2026-11-03",
       "featured": true
+    },
+    {
+      "slug": "same-listing-two-asins-the-kismile-duplicate",
+      "title": "Why the Same Kismile Ice Maker Has Two Different Listings",
+      "description": "Two ASINs, identical name, identical price, identical 35 lbs claim. What is actually going on when a nugget ice maker shows up twice on Amazon, and how to tell before you click buy.",
+      "category": "Honest take",
+      "hero": "hero-same-listing-two-asins-the-kismile-duplicate",
+      "minutes": 14,
+      "date": "2026-11-04",
+      "featured": true
     }
   ]
 }
