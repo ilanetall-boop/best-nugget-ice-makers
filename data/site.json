@@ -290,6 +290,16 @@
       "minutes": 14,
       "date": "2026-11-04",
       "featured": true
+    },
+    {
+      "slug": "name-brand-vs-no-name-nugget-ice-makers",
+      "title": "GE and Frigidaire vs the Unfamiliar Brands: Does the Name Matter?",
+      "description": "Silonn, EUHOMY and Kismile do not sell anything else recognizable. GE and Frigidaire sell refrigerators. What that difference actually buys at the same capacity, and where it does not.",
+      "category": "Buying guide",
+      "hero": "hero-name-brand-vs-no-name-nugget-ice-makers",
+      "minutes": 15,
+      "date": "2026-11-05",
+      "featured": true
     }
   ]
 }
