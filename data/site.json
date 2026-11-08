@@ -320,6 +320,16 @@
       "minutes": 16,
       "date": "2026-11-07",
       "featured": true
+    },
+    {
+      "slug": "nugget-ice-maker-cost-per-pound-of-capacity",
+      "title": "The Real Price Per Pound of Daily Ice Capacity",
+      "description": "Divide the price by the stated daily output and the ranking changes completely. The machine that looked cheapest and the one that looked most expensive, measured the same way.",
+      "category": "Honest take",
+      "hero": "hero-nugget-ice-maker-cost-per-pound-of-capacity",
+      "minutes": 15,
+      "date": "2026-11-08",
+      "featured": true
     }
   ]
 }
