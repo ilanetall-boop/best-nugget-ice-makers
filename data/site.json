@@ -340,6 +340,16 @@
       "minutes": 13,
       "date": "2026-11-09",
       "featured": true
+    },
+    {
+      "slug": "nugget-ice-makers-with-a-viewing-window",
+      "title": "Nugget Ice Makers With a Window You Can Actually See Through",
+      "description": "Three listings state a transparent viewing window outright, at $110, $147 and $254. What checking the bin without lifting the lid is actually worth, and where the window is really just a strip of tinted plastic.",
+      "category": "Honest take",
+      "hero": "hero-nugget-ice-makers-with-a-viewing-window",
+      "minutes": 15,
+      "date": "2026-11-10",
+      "featured": true
     }
   ]
 }
