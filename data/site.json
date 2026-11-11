@@ -350,6 +350,16 @@
       "minutes": 15,
       "date": "2026-11-10",
       "featured": true
+    },
+    {
+      "slug": "ge-profile-models-that-ship-with-a-descaler",
+      "title": "Only Two GE Profile Nugget Ice Makers Ship With a Descaler",
+      "description": "The Opal MINI PRO's listing states a 6-pack of descaler included. The flagship Opal Ultra, $70 more at $449, does not mention one at all in its own listing. A $144 Silonn budget model never claims one either, which at least matches its price.",
+      "category": "Honest take",
+      "hero": "hero-ge-profile-models-that-ship-with-a-descaler",
+      "minutes": 16,
+      "date": "2026-11-11",
+      "featured": true
     }
   ]
 }
