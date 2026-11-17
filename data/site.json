@@ -410,6 +410,16 @@
       "minutes": 15,
       "date": "2026-11-16",
       "featured": true
+    },
+    {
+      "slug": "countertop-vs-built-in-nugget-ice-makers",
+      "title": "Countertop or Built-In: Which Type of Nugget Ice Maker Should You Actually Buy",
+      "description": "A countertop nugget ice maker plugs in and runs; a built-in unit needs a drain, a cutout and sometimes a pump. What that installation gap actually costs, in money and in weekend labor.",
+      "category": "Comparison",
+      "hero": "hero-countertop-vs-built-in-nugget-ice-makers",
+      "minutes": 15,
+      "date": "2026-11-17",
+      "featured": true
     }
   ]
 }
