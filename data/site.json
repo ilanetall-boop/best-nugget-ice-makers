@@ -440,6 +440,16 @@
       "minutes": 13,
       "date": "2026-11-19",
       "featured": true
+    },
+    {
+      "slug": "ge-profile-opal-ultra-vs-opal-2-0-ultra",
+      "title": "GE Profile Opal Ultra vs Opal 2.0 Ultra: What the Redesign Actually Changed",
+      "description": "Both machines claim the same 38 lbs a day and the same side tank, and the 2.0 Ultra actually lists cheaper in one listing. What the generation number is really marking, and which listing to trust when two near-identical machines carry different prices.",
+      "category": "Comparison",
+      "hero": "hero-ge-profile-opal-ultra-vs-opal-2-0-ultra",
+      "minutes": 16,
+      "date": "2026-11-20",
+      "featured": true
     }
   ]
 }
