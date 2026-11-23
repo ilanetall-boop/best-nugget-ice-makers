@@ -1,0 +1,594 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A 55 lbs-a-Day Machine With a 4-lb Bin: Why Daily Output and Storage Are Different Numbers</title>
+<meta name="description" content="Two newer countertop machines claim 55 and 60 lbs a day but hold barely four pounds at a time, while a 60-lb competitor does not publish a bin size at all. The arithmetic that explains why a bigger daily number does not mean a bigger reserve.">
+<link rel="canonical" href="https://best-nugget-ice-makers.com/nugget-ice-maker-bin-size-vs-daily-output">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Nugget Ice Makers">
+<meta property="og:title" content="A 55 lbs-a-Day Machine With a 4-lb Bin: Why Daily Output and Storage Are Different Numbers">
+<meta property="og:description" content="Two newer countertop machines claim 55 and 60 lbs a day but hold barely four pounds at a time, while a 60-lb competitor does not publish a bin size at all. The arithmetic that explains why a bigger daily number does not mean a bigger reserve.">
+<meta property="og:image" content="https://best-nugget-ice-makers.com/images/hero-nugget-ice-maker-bin-size-vs-daily-output.webp">
+<meta name="theme-color" content="#08191c">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  :root{
+    --ground:#f3f3f6; --surface:#ffffff; --surface-2:#e8ecf0;
+    --ink:#121d21; --ink-soft:#253942; --muted:#626e74; --line:#dbe1e5;
+    --ice:#287795; --ice-deep:#165367; --ice-tint:#e7f2f6;
+    --steel:#5a7389; --steel-lite:#829db3; --steel-tint:#e2e9ef;
+    --dark:#081719; --dark-2:#11292c; --on-dark:#e9eef2; --on-dark-mute:#9facb2;
+    --star:#1e5fbb;
+    --shadow:0 1px 2px rgba(35,16,22,.05),0 22px 48px -26px rgba(35,16,22,.32);
+    --shadow-sm:0 1px 2px rgba(35,16,22,.05),0 10px 24px -16px rgba(35,16,22,.26);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#070f14; --surface:#0d1b1f; --surface-2:#132328;
+    --ink:#e9eef2; --ink-soft:#c7d3d8; --muted:#939ea3; --line:#1d3138;
+    --ice:#7ebce3; --ice-deep:#a6d4f0; --ice-tint:#11242a;
+    --steel:#84a2bf; --steel-lite:#9fb9d4; --steel-tint:#15191d;
+    --surface-2b:#132328;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#070f14; --surface:#0d1b1f; --surface-2:#132328;
+    --ink:#e9eef2; --ink-soft:#c7d3d8; --muted:#939ea3; --line:#1d3138;
+    --ice:#7ebce3; --ice-deep:#a6d4f0; --ice-tint:#11242a;
+    --steel:#84a2bf; --steel-lite:#9fb9d4; --steel-tint:#15191d;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, cold light) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(232,121,143,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(217,179,106,.22),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(155,34,71,.30),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.35;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(243,163,179,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(217,179,106,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--steel-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--steel-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--steel),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--steel-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--steel)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;gap:10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem;flex-wrap:wrap}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--ice);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--ice-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--steel-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--ice-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--steel-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--steel-tint)}
+  .win td.name{color:var(--steel-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--steel)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--ice-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--steel-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--ice-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;gap:8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem;flex-wrap:wrap}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--steel);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);font-style:italic;color:var(--ink);font-size:1.02rem}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--ice);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--ice-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--ice-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--steel-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--steel-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(207,166,102,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--ice);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style>
+  .prose{max-width:68ch}
+  .prose p{margin:0 0 1.1rem;color:var(--ink-soft)}
+  .disclosure{font-size:.86rem;color:var(--muted);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:28px 0 0;max-width:68ch}
+</style>
+<style id="a11y">:root{--steel-text:#3f5163;--star:#195297}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--steel-text:#9fb9d4;--star:#6797cc}}:root[data-theme="dark"]{--steel-text:#9fb9d4;--star:#6797cc}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--steel-text)}.win td.name{color:var(--steel-text)}a.btn,a.buy,.btn,.buy{background:#246c89 !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#165367 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#a6d2ed !important;color:#0c1f29 !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#c2e1f5}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#a6d2ed !important;color:#0c1f29 !important}</style>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "yw2xrr7wif");
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2R5GXMZLPF"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());gtag('config', 'G-2R5GXMZLPF');</script>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Nugget Ice Makers">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#2a7b9d"/><stop offset=".7" stop-color="#165367"/><stop offset="1" stop-color="#0f2529"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#829db3" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#e9eef2" stroke-width=".6" stroke-opacity=".22"/>
+      <path d="M20 11.6 26.4 15.4v7.6L20 26.8 13.6 23V15.4Z" fill="none" stroke="#f1f6f8" stroke-width="1.9" stroke-linejoin="round"/>
+      <path d="M13.6 15.4 20 19.2l6.4-3.8" fill="none" stroke="#f1f6f8" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M20 19.2v7.6" fill="none" stroke="#f1f6f8" stroke-width="1.5"/>
+      <path d="M12.6 29.8h14.8" fill="none" stroke="#9fb9d4" stroke-width="1.7" stroke-linecap="round"/>
+    </svg>
+    <span class="bn">Best&thinsp;Nugget&thinsp;Ice&thinsp;Makers</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The six</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<div class="hero">
+  <div class="caustic" aria-hidden="true"></div><div class="caustic b" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Honest Take &middot; Countertop Nugget Ice Makers</span>
+      <h1 class="serif">A 55 lbs-a-day machine with a <em>4-lb</em> bin</h1>
+      <p class="lede">Two newer countertop machines advertise 55 and 60 lbs a day in their titles, and both hold barely four pounds of ice at once. A third 60-lb machine does not publish a bin size at all. None of that makes any of them bad &mdash; it makes the daily-output number nearly useless for deciding whether you'll be refilling the bin at 3pm. Here is the arithmetic the listings don't do for you.</p>
+      <div class="meta"><span>By <b>Ilane Tall</b></span><span><b>3</b> listings compared</span><span>Research-based &mdash; <b>no testing lab, no invented scores</b></span></div>
+      <hr class="rule">
+    </div>
+    <img src="/images/hero-nugget-ice-maker-bin-size-vs-daily-output.webp" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async" class="himg" alt="Countertop nugget ice maker with its ice bin open, showing a shallow pile of pellet ice next to a measuring scale">
+  </div>
+</div>
+
+<div class="wrap">
+
+  <div class="disclosure">Affiliate disclosure: we may earn a commission if you buy through the Amazon links on this page, at no extra cost to you. By <b>Ilane Tall</b> &middot; Updated November 23, 2026 &middot; Research-based. See <a href="#how">how we picked</a> below.</div>
+
+  <section id="intro">
+    <div class="prose" style="margin-top:28px">
+      <p>Shop for a countertop nugget ice maker and the first number you see is always the same shape: pounds per day. Fifty-five. Sixty. It's in the title of the listing, in bold, usually before the brand name. It is also, on its own, close to meaningless for the question most people actually have, which is: if I fill a cooler for a party at 6pm, how much ice is sitting in the machine when I go to scoop it?</p>
+      <p>That question isn't answered by daily output. It's answered by bin size &mdash; the capacity of the little basket or tray the machine drops finished ice into before you scoop it out. We looked at three current listings, two of them rated near 60 lbs a day, and the gap between what the daily number implies and what the bin actually holds is the entire story of this guide. One machine states a 4.2-lb bin. Another states 4.84 lbs and is explicit that only 80% of that is usable. A third, also rated at 60 lbs a day, states no bin size at all. All three numbers matter more than the headline figure, and none of them are on the box in bold.</p>
+    </div>
+  </section>
+
+  <!-- THE ARITHMETIC -->
+  <section id="arithmetic">
+    <div class="kicker"><span class="eyebrow">The core distinction</span></div>
+    <h2 class="h2">Daily output is a 24-hour total. The bin is what you have at 3pm.</h2>
+    <div class="prose" style="margin-top:18px">
+      <p>A nugget ice maker that's "rated" at 55 lbs a day isn't holding 55 lbs of ice anywhere inside it. It's describing a production rate: run the machine continuously for 24 hours, keep the water reservoir topped up the entire time, and it will have manufactured roughly 55 lbs of ice across that whole period, almost all of which gets scooped out, melted into a drink, or moved to a freezer long before the 24 hours is up. The figure is a speedometer reading, not a fuel gauge.</p>
+      <p>The bin is the fuel gauge, and it is a small one. Nugget ice makers don't store ice the way a freezer does &mdash; the bin sits inside the machine at close to freezing but not hard-frozen, which is exactly why the pellets stay soft and chewable instead of fusing into a block. That same design means ice sitting in the bin slowly melts, drains back into the reservoir, and gets remade. The bin is a holding buffer the machine keeps topped up while it runs, not a reserve you can bank up overnight and draw down from for a week.</p>
+      <p>So the honest way to read a listing is two numbers, not one: the daily rate, which tells you how fast the machine replenishes, and the bin size, which tells you how much is actually sitting there waiting the moment you open the lid. A 55-lbs-a-day machine with a small bin will, over a full day of intermittent use, still move roughly 55 lbs of water through its system &mdash; but at any single moment you check, which is the only moment that matters when you're filling glasses, you'll find whatever the bin holds, not whatever the day's total will eventually add up to.</p>
+    </div>
+  </section>
+
+  <!-- THE TWO BIN SIZES -->
+  <section id="bins">
+    <div class="kicker"><span class="eyebrow">What's actually in the bin</span></div>
+    <h2 class="h2">4.2 lbs and 4.84 lbs: two stated bins on machines rated near 60 lbs a day</h2>
+    <div class="prose" style="margin-top:18px">
+      <p>The <a href="/countertop-vs-built-in-nugget-ice-makers">countertop nugget ice maker</a> rated at <b>55 lbs a day</b> states a <b>4.2-lb ice bin</b> in its own product title, alongside first ice in 4 minutes and a 10-minute self-cleaning cycle. That's a listing being more forthcoming than most: the bin size is right there next to the headline output, not buried in a specification table three screens down. Four-point-two pounds is roughly what you'd need to fill two or three mixing glasses with ice to the top at once &mdash; useful for a round of drinks, not for a party.</p>
+      <p>The second machine, rated at <b>60 lbs per 24 hours</b>, states a <b>4.84-lb large basket</b>, which sounds like a meaningful step up from 4.2 lbs until you read the next phrase in its own listing: <b>"80% Usable Ice Basket."</b> That's the manufacturer telling you, in its own product name, that roughly a fifth of the stated basket capacity isn't ice you actually get to scoop &mdash; it's structural margin, drainage space, or ice that sits against the walls and sensor rather than in the pile you dig into. Run the math and 80% of 4.84 lbs comes out to a little under 3.9 lbs of ice you can genuinely access at once, which is less than the first machine's 4.2-lb bin despite the larger number printed on the basket itself.</p>
+      <p>That's the pattern worth remembering: "4.84 lbs" and "4.2 lbs" look like a straightforward comparison until you notice that one of the two numbers already has an asterisk built into the product name. A listing that volunteers a usable-capacity caveat is being unusually transparent, and the honest response to that transparency is to actually use the corrected number, not the headline one, when you compare it against a competitor that doesn't publish the same caveat.</p>
+    </div>
+  </section>
+
+  <!-- THE OMISSION -->
+  <section id="omission">
+    <div class="kicker"><span class="eyebrow">What's missing</span></div>
+    <h2 class="h2">The 60-lb machine that never states a bin size at all</h2>
+    <div class="prose" style="margin-top:18px">
+      <p>The third machine in this comparison, a smart WiFi-connected model rated at <b>60 lbs daily</b> with 6-minute ice and a 40dB noise rating, does not publish a bin or basket capacity anywhere in the product title or the data we have on file for the listing. That's not unusual in this category &mdash; plenty of nugget ice makers lead with daily output, time-to-first-ice and noise level, and leave bin size to a specifications table that may or may not exist depending on the listing.</p>
+      <p>An omission like that isn't proof the bin is small. It's simply a gap, and the only honest thing to do with a gap is say so rather than guess a number to fill it. What an unstated spec usually signals, in our experience comparing listings across this category, is one of two things: either the figure is unremarkable enough that the manufacturer didn't think it would help sell the machine, or it genuinely wasn't measured in a way worth publishing. Either way, if bin capacity decides your purchase, a missing figure means doing one extra step: open the listing's full specification table or images for a stated number before you buy, rather than assuming a 60-lb daily rating implies a generous bin to match. The two machines above prove that daily rating and bin size don't move together at all &mdash; one 60-lb-class machine ekes out under 3.9 lbs usable, the other states nothing, and a 55-lb machine beats both with a plainly stated 4.2 lbs.</p>
+      <p>If a published bin figure is non-negotiable for you, that's reason enough to treat the absence as a mark against this particular listing relative to the other two, not because the machine is necessarily worse, but because you can't plan around a number nobody will commit to in writing.</p>
+    </div>
+  </section>
+
+  <!-- THE PARTY PROBLEM -->
+  <section id="party">
+    <div class="kicker"><span class="eyebrow">Where the arithmetic bites</span></div>
+    <h2 class="h2">Why a high daily figure doesn't save you from refilling mid-party</h2>
+    <div class="prose" style="margin-top:18px">
+      <p>Picture a Saturday with six guests over for a few hours. Across the whole evening, a 55- or 60-lbs-a-day machine has plenty of headroom &mdash; even at a generous pace of ice going into drinks, you're unlikely to exceed what the machine can produce over several hours if it's left running the entire time. That's the scenario the daily number is actually describing, and in that scenario it holds up fine.</p>
+      <p>The problem is the fifteen minutes right after everyone arrives, when four or five people want a drink with ice at roughly the same time and the bin, not the day's production total, is what's actually in front of the dispenser. A 4.2-lb bin, or a basket that nets under 4 lbs once you apply an 80%-usable figure, empties fast against that kind of simultaneous demand &mdash; probably in the first round of drinks, well before the machine's hourly production rate has had time to refill it. The daily total of 55 or 60 lbs is true and irrelevant in that moment; what's true and relevant is whatever is sitting in the bin right then, plus however many minutes it takes the machine to replace what just left.</p>
+      <p>None of the three machines here publish an hourly production rate alongside their daily figure, which would be the number that actually predicts bin recovery speed during a party. Lacking that, the practical move for entertaining is the same regardless of which of these three you buy: run the machine for an hour or two before guests arrive so the bin starts full, and treat the stated daily total as a description of the whole evening's capacity, not a promise about any five-minute stretch of it. For genuinely frequent entertaining at volume, it's also worth reading how a <a href="/best-built-in-nugget-ice-makers-for-a-wet-bar">built-in nugget ice maker sized for a wet bar</a> handles storage differently &mdash; those units are generally plumbed and drained specifically because a countertop bin this size was never meant to outlast a crowd.</p>
+    </div>
+  </section>
+
+  <!-- COMPARE -->
+  <section id="compare">
+    <div class="kicker"><span class="eyebrow">Side by side</span></div>
+    <h2 class="h2">The three, compared</h2>
+    <div class="tablewrap"><table>
+      <thead>
+        <tr><th>Model</th><th>Daily output</th><th>Stated bin</th><th>Usable ice</th><th>Price</th><th>Get it</th></tr>
+      </thead>
+      <tbody>
+        <tr class="win">
+          <td class="name"><span class="thumb"><img src="/images/amazon-B0HLL34YHP.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span>Nugget Ice Maker 55lbs/Day, 4.2-lb Bin</td>
+          <td>55 lbs/day</td>
+          <td>4.2 lbs</td>
+          <td>4.2 lbs (no caveat stated)</td>
+          <td class="price">$299.99</td>
+          <td><a class="tget" href="https://www.amazon.com/dp/B0HLL34YHP?tag=bestnuggetice-20" rel="nofollow sponsored noopener" target="_blank">Get it</a></td>
+        </tr>
+        <tr>
+          <td class="name"><span class="thumb"><img src="/images/amazon-B0H5C5PM8B.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span>Nugget Ice Maker 60lbs/24H, 4.84-lb Basket</td>
+          <td>60 lbs/24h</td>
+          <td>4.84 lbs</td>
+          <td>&asymp;3.87 lbs (80% usable, per listing)</td>
+          <td class="price">$399.99</td>
+          <td><a class="tget" href="https://www.amazon.com/dp/B0H5C5PM8B?tag=bestnuggetice-20" rel="nofollow sponsored noopener" target="_blank">Get it</a></td>
+        </tr>
+        <tr>
+          <td class="name"><span class="thumb"><img src="/images/amazon-B0FK9ZD1GR.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span>GoveeLife Smart Nugget Ice Maker Pro</td>
+          <td>60 lbs/day</td>
+          <td>Not stated</td>
+          <td>Unknown &mdash; check listing</td>
+          <td class="price">$349.99</td>
+          <td><a class="tget" href="https://www.amazon.com/dp/B0FK9ZD1GR?tag=bestnuggetice-20" rel="nofollow sponsored noopener" target="_blank">Get it</a></td>
+        </tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- PICKS -->
+  <section id="picks">
+    <div class="kicker"><span class="eyebrow">The picks</span></div>
+    <h2 class="h2">Our picks, by which listing was honest about the number that matters</h2>
+    <div class="picks">
+      <article class="pick">
+        <div class="rank">01<small>Most honest bin figure</small></div>
+        <div>
+          <h3 class="serif">Nugget Ice Maker Countertop 55lbs/Day, 4.2-lb Ice Bin</h3>
+          <p class="who">Best for a plainly stated number you can actually plan around</p>
+          <div class="rl2"><b>55 lbs/day</b><span>&middot;</span><b>4-min first ice</b><span>&middot;</span><b>4.2-lb bin</b><span>&middot;</span><span>Built-in filter, 10-min self-clean, 45dB, stainless steel</span></div>
+          <p class="body">This is the lowest daily rating of the three, and it's our pick anyway, because it's the only one that states a bin size with no caveat attached &mdash; 4.2 lbs, right in the product title, next to the daily figure rather than hidden behind it. That transparency is worth more than an extra 5 lbs of theoretical daily output you'll rarely use in a single sitting. It also claims the fastest first ice of the three at 4 minutes and a 10-minute self-cleaning cycle, both specifics you can hold the machine to. At $299.99 it's also the cheapest of the three, which makes the honesty free rather than a premium you're paying for.</p>
+          <p class="quote">The smallest daily number here, and the only bin figure you can trust at face value. That trade is worth taking.</p>
+        </div>
+        <div class="aside">
+          <span class="pimg"><img src="/images/amazon-B0HLL34YHP.webp" alt="Countertop nugget ice maker with 4.2-lb ice bin" width="150" height="150" loading="lazy" decoding="async"></span>
+          <div><span class="tag">Price</span><div class="pr">$299.99</div></div>
+          <a class="buy" href="https://www.amazon.com/dp/B0HLL34YHP?tag=bestnuggetice-20" rel="nofollow sponsored noopener" target="_blank">Check price &rarr;</a>
+        </div>
+      </article>
+      <article class="pick">
+        <div class="rank">02<small>Most transparent caveat</small></div>
+        <div>
+          <h3 class="serif">Nugget Ice Maker Countertop 60lbs/24H, 4.84-lb Basket</h3>
+          <p class="who">Best if you want the manufacturer's own usable-capacity math shown</p>
+          <div class="rl2"><b>60 lbs/24h</b><span>&middot;</span><b>5-min first ice</b><span>&middot;</span><b>4.84-lb basket, 80% usable</b><span>&middot;</span><span>UV-C purify, dual water tank, pre-filter, 40dB</span></div>
+          <p class="body">The highest stated daily figure of the three at 60 lbs per 24 hours, with the largest named basket at 4.84 lbs &mdash; and the only listing that volunteers the correction most buyers would never think to ask for: "80% Usable Ice Basket." Apply that percentage and the real figure, around 3.87 lbs, actually lands slightly below the 4.2-lb machine above. We're ranking this second specifically because it told us the caveat rather than letting the bigger headline number stand uncorrected. It adds UV-C purification and a dual water tank, two specifics neither competitor here states, at the highest price of the three, $399.99.</p>
+          <p class="quote">The biggest number on the page, and the manufacturer's own footnote that quietly shrinks it. We'd rather have the footnote.</p>
+        </div>
+        <div class="aside">
+          <span class="pimg"><img src="/images/amazon-B0H5C5PM8B.webp" alt="Countertop nugget ice maker with 4.84-lb basket" width="150" height="150" loading="lazy" decoding="async"></span>
+          <div><span class="tag">Price</span><div class="pr">$399.99</div></div>
+          <a class="buy" href="https://www.amazon.com/dp/B0H5C5PM8B?tag=bestnuggetice-20" rel="nofollow sponsored noopener" target="_blank">Check price &rarr;</a>
+        </div>
+      </article>
+      <article class="pick">
+        <div class="rank">03<small>The gap to confirm yourself</small></div>
+        <div>
+          <h3 class="serif">GoveeLife Smart Nugget Ice Maker Pro</h3>
+          <p class="who">Best for smart-home features, if you confirm bin size before buying</p>
+          <div class="rl2"><b>60 lbs/day</b><span>&middot;</span><b>6-min first ice</b><span>&middot;</span><b>40dB</b><span>&middot;</span><span>WiFi smart controls</span></div>
+          <p class="body">Matching the second machine's 60-lbs-a-day rating, with a 6-minute first-ice claim and the quietest stated noise rating of the three at 40dB &mdash; plus WiFi smart controls neither of the other two lists. What it doesn't state, in the product title or in the data we have on this listing, is a bin or basket capacity of any kind. That's the one gap in an otherwise competitive sheet, and at $349.99 it sits between the other two on price without the one spec that actually tells you how much ice is waiting when you open the lid. If smart controls and quiet operation matter more to you than a confirmed bin figure, this is a reasonable buy &mdash; just check the full listing yourself for a capacity number before you do.</p>
+          <p class="quote">Quietest and smartest of the three. Also the one where you have to go find the bin size yourself.</p>
+        </div>
+        <div class="aside">
+          <span class="pimg"><img src="/images/amazon-B0FK9ZD1GR.webp" alt="GoveeLife Smart Nugget Ice Maker Pro" width="150" height="150" loading="lazy" decoding="async"></span>
+          <div><span class="tag">Price</span><div class="pr">$349.99</div></div>
+          <a class="buy" href="https://www.amazon.com/dp/B0FK9ZD1GR?tag=bestnuggetice-20" rel="nofollow sponsored noopener" target="_blank">Check price &rarr;</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- THE WIDER PATTERN -->
+  <section id="elsewhere">
+    <div class="kicker"><span class="eyebrow">Where else this shows up</span></div>
+    <h2 class="h2">This isn't the only spec worth reading past the headline number on</h2>
+    <div class="prose" style="margin-top:18px">
+      <p>The daily-output-versus-bin gap is a specific case of a pattern that runs through this entire product category: the number printed biggest in a listing title is usually the number that was easiest to make look impressive, not necessarily the one that predicts your actual experience. We've seen the same dynamic play out with accessory pricing &mdash; our look at whether <a href="/is-the-ge-profile-opal-side-tank-worth-70">GE's $70 Opal side tank accessory</a> is worth buying separately runs into an almost identical arithmetic problem, where a bigger attached number (three times the capacity, in that case) needs to be checked against what it actually changes before you spend based on the headline alone.</p>
+      <p>It also shows up in how brands market near-identical hardware under different names. Our comparison of <a href="/ge-profile-opal-ultra-vs-opal-2-0-ultra">the Opal Ultra against the Opal 2.0 Ultra</a> found two listings claiming the same core specification while differing on price, which is the same lesson from the other direction: a published number is a starting point for comparison, not a guarantee that two products naming the same figure are equivalent in the way that matters to you. The discipline that applies to bin size here &mdash; read the exact wording, apply any caveat the manufacturer itself states, and treat an absence as an open question rather than a safe assumption &mdash; is the same discipline worth applying anywhere a single bold number is doing the selling.</p>
+    </div>
+  </section>
+
+  <!-- METHOD -->
+  <section id="how">
+    <div class="kicker"><span class="eyebrow">Our method</span></div>
+    <h2 class="h2">How we picked &mdash; and what we can&rsquo;t tell you</h2>
+    <div class="cols">
+      <div class="panel">
+        <span class="eyebrow">What we did</span>
+        <h3>Listing titles and stated specs, compared line by line</h3>
+        <p>We compared the published product titles, stated bin or basket capacities, first-ice times and current Amazon prices for three countertop nugget ice makers rated near 55&ndash;60 lbs a day. Where a listing states a usable-capacity caveat, like the 80% figure on the 4.84-lb basket, we applied that percentage rather than quoting the larger uncorrected number. Where a listing states no bin size at all, we say exactly that instead of estimating one from the machine's daily rating, which the two stated examples here show doesn't reliably predict it.</p>
+      </div>
+      <div class="panel">
+        <span class="eyebrow">What we didn&rsquo;t</span>
+        <h3>We don&rsquo;t run a testing lab</h3>
+        <p>We do not physically test these machines, we do not own them, and we do not publish invented scores or ratings. We have no verified review data for these specific listings, so we don't paraphrase owner sentiment we can't point to. What we can do honestly is read each listing's own numbers, apply its own caveats, and flag where a spec that matters &mdash; bin size, in this case &mdash; simply isn't published.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="kicker"><span class="eyebrow">FAQ</span></div>
+    <h2 class="h2">Common questions</h2>
+    <div class="panel faq" style="margin-top:22px">
+      <details open><summary>Why would a 55-lb machine have a smaller bin than I'd expect?</summary><p>Because daily output and bin size describe two different things that don't move together. The daily figure is a 24-hour production total assuming the reservoir stays full the whole time; the bin is the small holding buffer the finished ice sits in at any one moment. The 55-lbs-a-day machine in this guide states a 4.2-lb bin, which is actually larger in practice than the 60-lb machine's 4.84-lb basket once you apply its own stated 80%-usable figure &mdash; around 3.87 lbs. A bigger daily number doesn't guarantee a bigger bin.</p></details>
+      <details><summary>What does "80% usable ice basket" actually mean?</summary><p>It's the manufacturer's own admission that the full stated capacity of the basket isn't ice you can scoop out. Some portion &mdash; roughly a fifth, by this listing's own figure &mdash; is structural margin, drainage space, or ice sitting against the basket walls and sensor rather than in the pile you dig into. On a 4.84-lb basket, that works out to about 3.87 lbs you can actually access. We'd rather a listing state that caveat than let the bigger, uncorrected number stand on its own.</p></details>
+      <details><summary>Why doesn't the GoveeLife listing state a bin size?</summary><p>We don't know for certain, and we're not going to guess at a figure the listing itself doesn't commit to. An unstated spec in this category usually means either the number wasn't considered notable enough to lead with, or it simply wasn't published in a form worth repeating. If bin capacity decides your purchase, the right move is to check the full listing's specification table or images directly for a stated number before buying, rather than assuming the 60-lb daily rating implies a bin to match &mdash; the two other machines here prove that assumption wrong in both directions.</p></details>
+      <details><summary>Will a bigger daily output number mean fewer refills during a party?</summary><p>Not reliably, because a party's demand is concentrated into a short window, and what's in front of the dispenser in that window is the bin, not the day's production total. A machine rated at 55 or 60 lbs a day has that much theoretical output across 24 hours, but a 4-lb-class bin can empty in the first round of drinks for a handful of guests, well before the machine's hourly rate has refilled it. The practical fix is running the machine for an hour or two before guests arrive so the bin starts full, regardless of which of these three machines you own.</p></details>
+    </div>
+  </section>
+
+  <!-- KEEP READING -->
+  <section id="related">
+    <div class="kicker"><span class="eyebrow">Keep reading</span></div>
+    <h2 class="h2">More from Best Nugget Ice Makers</h2>
+    <div class="cols" style="margin-top:22px">
+      <div class="panel">
+        <span class="eyebrow">For bigger gatherings</span>
+        <h3><a href="/best-built-in-nugget-ice-makers-for-a-wet-bar">Best built-in nugget ice makers for an outdoor kitchen or wet bar</a></h3>
+        <p>When a countertop bin this size genuinely isn't enough, built-in machines handle storage with a drain and a cutout instead of a basket.</p>
+      </div>
+      <div class="panel">
+        <span class="eyebrow">Same lesson, different spec</span>
+        <h3><a href="/is-the-ge-profile-opal-side-tank-worth-70">Is the GE Profile Opal side tank worth $70?</a></h3>
+        <p>Another case where a bigger attached number needs checking against what it actually changes before you spend based on the headline.</p>
+      </div>
+      <div class="panel">
+        <span class="eyebrow">Browse</span>
+        <h3><a href="/guides">All guides</a></h3>
+        <p>Every comparison and how-to we've published on countertop nugget ice makers.</p>
+      </div>
+      <div class="panel">
+        <span class="eyebrow">Our standards</span>
+        <h3><a href="/about">About Best Nugget Ice Makers</a></h3>
+        <p>Who writes these guides and how we handle specs, prices and the absence of real review data.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Nugget Ice Makers</div>
+  <p>Independent, research-based comparisons of countertop nugget ice makers.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> · <a href="/guides">All guides</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specs and current prices; we do not physically test products. Prices change frequently — confirm the current price on Amazon before buying. As an Amazon Associate, we earn from qualifying purchases. © 2026 Best Nugget Ice Makers.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "A 55 lbs-a-Day Machine With a 4-lb Bin: Why Daily Output and Storage Are Different Numbers",
+ "description": "Two newer countertop machines claim 55 and 60 lbs a day but hold barely four pounds at a time, while a 60-lb competitor does not publish a bin size at all. The arithmetic that explains why a bigger daily number does not mean a bigger reserve.",
+ "image": "https://best-nugget-ice-makers.com/images/hero-nugget-ice-maker-bin-size-vs-daily-output.webp",
+ "author": { "@type": "Person", "name": "Ilane Tall" },
+ "publisher": { "@type": "Organization", "name": "Best Nugget Ice Makers" },
+ "datePublished": "2026-11-23",
+ "dateModified": "2026-11-23",
+ "mainEntityOfPage": "https://best-nugget-ice-makers.com/nugget-ice-maker-bin-size-vs-daily-output"
+}
+</script>
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Why would a 55-lb machine have a smaller bin than I'd expect?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Daily output and bin size describe two different things. The daily figure is a 24-hour production total; the bin is the small holding buffer ice sits in at any one moment. The 55-lbs-a-day machine here states a 4.2-lb bin, which is larger in practice than the 60-lb machine's 4.84-lb basket once its own stated 80%-usable figure is applied, about 3.87 lbs. A bigger daily number doesn't guarantee a bigger bin."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What does \"80% usable ice basket\" actually mean?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "It's the manufacturer's own admission that the full stated basket capacity isn't all scoopable ice. Roughly a fifth, by this listing's own figure, is structural margin or ice against the walls and sensor. On a 4.84-lb basket that works out to about 3.87 lbs actually accessible at once."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Why doesn't the GoveeLife listing state a bin size?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "The data available for this listing does not include a stated bin or basket capacity. An unstated spec in this category doesn't reliably predict a small or large bin either way, since the two machines that do state a figure show daily rating doesn't track bin size. Check the listing's own specification table directly if bin capacity decides your purchase."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Will a bigger daily output number mean fewer refills during a party?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Not reliably. Party demand is concentrated into a short window, and what's available in that window is the bin, not the day's production total. A 4-lb-class bin can empty in one round of drinks for several guests well before the machine's production rate refills it. Running the machine for an hour or two before guests arrive, so the bin starts full, is the practical fix regardless of the daily rating."
+   }
+  }
+ ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "ItemList",
+ "name": "Countertop Nugget Ice Makers: Daily Output vs. Bin Size",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "item": {
+    "@type": "Product",
+    "name": "Nugget Ice Maker Countertop 55lbs/Day, 4.2-lb Ice Bin",
+    "image": "https://best-nugget-ice-makers.com/images/amazon-B0HLL34YHP.webp",
+    "offers": {
+     "@type": "Offer",
+     "price": "299.99",
+     "priceCurrency": "USD",
+     "availability": "https://schema.org/InStock",
+     "url": "https://www.amazon.com/dp/B0HLL34YHP?tag=bestnuggetice-20"
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "item": {
+    "@type": "Product",
+    "name": "Nugget Ice Maker Countertop 60lbs/24H, 4.84-lb Basket",
+    "image": "https://best-nugget-ice-makers.com/images/amazon-B0H5C5PM8B.webp",
+    "offers": {
+     "@type": "Offer",
+     "price": "399.99",
+     "priceCurrency": "USD",
+     "availability": "https://schema.org/InStock",
+     "url": "https://www.amazon.com/dp/B0H5C5PM8B?tag=bestnuggetice-20"
+    }
+   }
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "item": {
+    "@type": "Product",
+    "name": "GoveeLife Smart Nugget Ice Maker Pro",
+    "image": "https://best-nugget-ice-makers.com/images/amazon-B0FK9ZD1GR.webp",
+    "offers": {
+     "@type": "Offer",
+     "price": "349.99",
+     "priceCurrency": "USD",
+     "availability": "https://schema.org/InStock",
+     "url": "https://www.amazon.com/dp/B0FK9ZD1GR?tag=bestnuggetice-20"
+    }
+   }
+  }
+ ]
+}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

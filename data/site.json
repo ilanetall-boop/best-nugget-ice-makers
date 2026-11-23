@@ -470,6 +470,16 @@
       "minutes": 15,
       "date": "2026-11-22",
       "featured": true
+    },
+    {
+      "slug": "nugget-ice-maker-bin-size-vs-daily-output",
+      "title": "A 55 lbs-a-Day Machine With a 4-lb Bin: Why Daily Output and Storage Are Different Numbers",
+      "description": "Two newer countertop machines claim 55 and 60 lbs a day but hold barely four pounds at a time, while a 60-lb competitor does not publish a bin size at all. The arithmetic that explains why a bigger daily number does not mean a bigger reserve.",
+      "category": "Honest take",
+      "hero": "hero-nugget-ice-maker-bin-size-vs-daily-output",
+      "minutes": 15,
+      "date": "2026-11-23",
+      "featured": true
     }
   ]
 }
